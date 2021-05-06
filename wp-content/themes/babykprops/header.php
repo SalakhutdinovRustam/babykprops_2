@@ -56,8 +56,6 @@ global $temp_html_dir;
     </div>
     <!-- Offcanvas Menu End -->
 
-
-
 			<!-- Header Section Begin -->
 			<header class="header">
 						<div class="container-fluid">
