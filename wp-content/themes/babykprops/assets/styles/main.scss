@@ -1,0 +1,35 @@
+//Components
+@import "components/bootstrap";
+@import "components/font-awesome";
+@import "components/elegant-icons";
+@import "~jquery-ui-bundle/jquery-ui.min.css";
+@import "components/magnific-popup";
+@import "~ngx-owl-carousel-o/lib/styles/scss/owl.carousel";
+@import "components/slicknav";
+
+//Common
+@import "common/variables";
+
+// Base
+@import "./base/base";
+@import "./base/mixins";
+
+//Sections
+@import "layouts/sections/header";
+@import "layouts/sections/footer";
+
+//pages
+
+@import "home-page";
+@import "breadcrumb";
+@import "categories";
+@import "product";
+@import "shop";
+@import "product-details";
+@import "shop-cart";
+@import "checkout";
+@import "blog";
+@import "blog-sidebar";
+@import "blog-details";
+@import "contact";
+@import "responsive";
