@@ -18,7 +18,7 @@ class ThemeHeader {
 		$logo_image = $this->acf_fields['logo']['sizes']['thumbnail'];
 
 		$block = <<<HTML
-<div class="col-xl-1 col-lg-1">
+<div class="col-xl-2 col-lg-2">
 	<div class="header__logo">
 			<a href="	{$logo_url}"><img src="{$logo_image}" alt="logo"></a>
 	</div>
@@ -69,7 +69,7 @@ HTML;
 		$phone_number = $this->acf_fields['phone']['phone_number'];
 
 		$block = <<<HTML
-<div class="col-xl-5 col-lg-4">
+<div class="col-xl-4 col-lg-3">
 	<div class="header__right">
 			<div class="header__right__phone">
 							<a class="phone-title" href="#">$phone_title</a>
