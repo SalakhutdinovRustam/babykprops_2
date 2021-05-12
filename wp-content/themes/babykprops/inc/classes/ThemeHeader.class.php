@@ -4,7 +4,6 @@ class ThemeHeader {
 
 	function __construct() {
 		$this->acf_fields = get_field('header', 'options');
-	/* 	var_dump ($this->acf_fields); */
 	}
 
 
@@ -32,33 +31,21 @@ HTML;
 	 * Menu
 	 */
 	function get_header_menu() {
-		/* $logo_url = home_url('/');
-		$logo_image = $this->acf_fields['logo']['sizes']['thumbnail']; */
-
+		
+		$main_menu = wp_nav_menu(array(
+			'echo' => false,
+			'theme_location' => 'main_menu',
+			'menu_class' => '',
+	));
+		
 		$block = <<<HTML
 <div class="col-xl-6 col-lg-7">
 	<nav class="header__menu">
-			<ul>
-					<li><a href="./index.html">Home</a></li>
-					<li><a href="#">Women’s</a></li>
-					<li><a href="#">Men’s</a></li>
-					<li class="active"><a href="./shop.html">Shop</a></li>
-					<li><a href="#">Pages</a>
-							<ul class="dropdown">
-									<li><a href="./product-details.html">Product Details</a></li>
-									<li><a href="./shop-cart.html">Shop Cart</a></li>
-									<li><a href="./checkout.html">Checkout</a></li>
-									<li><a href="./blog-details.html">Blog Details</a></li>
-							</ul>
-					</li>
-					<li><a href="./blog.html">Blog</a></li>
-					<li><a href="./contact.html">Contact</a></li>
-			</ul>
+	{$main_menu}
 	</nav>
 </div>
 HTML;
-
-		return $block;
+	return $block;
 	}
 
 	/**
@@ -80,19 +67,30 @@ HTML;
 					<a href="#">Register</a>
 			</div>
 			<ul class="header__right__widget">
-					<li><span class="icon_search search-switch"></span></li>
-					<li><a href="#"><span class="icon_heart_alt"></span>
-							<div class="tip">2</div>
-					</a></li>
-					<li><a href="#"><span class="icon_bag_alt"></span>
-							<div class="tip">2</div>
-					</a></li>
-			</ul>
-	</div>
-	</div>
+								<li><span class="icon_search search-switch"></span></li>
+								<li><a href="#"><span class="icon_heart_alt"></span>
+										<div class="tip">2</div>
+								</a></li>
+								<li><a href="#"><span class="icon_bag_alt"></span>
+										<div class="tip">2</div>
+								</a></li>
+						</ul>
+				</div>
+		</div>
+</div>
 HTML;
 
 		return $block;
 	}
+
+
+	/**
+	 * Search
+	 */
+/* 	function get_search() {
+		 get_search_form();
+	
+
+	} */
 
 }

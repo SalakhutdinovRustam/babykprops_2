@@ -63,12 +63,17 @@ global $temp_html_dir;
 								<?php echo $header->get_logo(); ?>
 								<?php echo $header->get_header_menu(); ?>
 								<?php echo $header->get_header_right(); ?>
+							
 										
 										
 								</div>
+									
 								<div class="canvas__open">
 										<i class="fa fa-bars"></i>
 								</div>
 						</div>
 				</header>
 				<!-- Header Section End -->
+
+
+				
