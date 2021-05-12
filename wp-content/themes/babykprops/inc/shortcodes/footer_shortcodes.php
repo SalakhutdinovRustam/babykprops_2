@@ -1,7 +1,4 @@
 <?php
-$acf_footer = get_field('footer', 'options');
-
-/* var_dump($acf_footer);  */
 
 /**
  * Logo
