@@ -1,11 +1,15 @@
 <?php
-
+/* $args = array(  );
+$attachments = get_posts( $args );
+var_dump($attachments); */
 /**
  * Logo
  */
 function footer_logo_shortcode() {
 	$home_url = home_url('/');
 	$logo = get_field('footer_logo', 'options');
+
+
 
 	if(empty($logo)) {
 		return false;
@@ -101,3 +105,5 @@ HTML;
  
 }
 add_shortcode('footer-payment', 'footer_img_payments');
+
+
