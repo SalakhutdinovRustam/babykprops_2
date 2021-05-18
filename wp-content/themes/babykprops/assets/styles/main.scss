@@ -6,13 +6,15 @@
 @import "components/magnific-popup";
 @import "~ngx-owl-carousel-o/lib/styles/scss/owl.carousel";
 @import "components/slicknav";
+@import "components/comments";
+@import "components/breadcrumb";
 
 //Common
 @import "common/variables";
 
 // Base
-@import "./base/base";
-@import "./base/mixins";
+@import "base/base";
+@import "base/mixins";
 
 //Sections
 @import "layouts/sections/header";
@@ -20,16 +22,25 @@
 
 //pages
 
-@import "home-page";
-@import "breadcrumb";
-@import "categories";
-@import "product";
-@import "shop";
-@import "product-details";
-@import "shop-cart";
-@import "checkout";
-@import "blog";
-@import "blog-sidebar";
-@import "blog-details";
-@import "contact";
-@import "responsive";
+@import "layouts/pages/about-us";
+@import "layouts/pages/home-page";
+@import "layouts/pages/categories";
+@import "layouts/pages/shop";
+@import "layouts/pages/shop-cart";
+@import "layouts/pages/checkout";
+@import "layouts/pages/blog";
+@import "layouts/pages/contact";
+
+//blocks
+
+@import "layouts/blocks/blog-sidebar";
+@import "layouts/blocks/blog-details";
+
+//products
+
+@import "components/products/product-details";
+@import "components/products/product";
+
+//media
+
+@import "components/media/responsive";
