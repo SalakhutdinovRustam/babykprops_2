@@ -1,1 +1,2 @@
-home.php
+<?php
+require_once 'archive.php';
