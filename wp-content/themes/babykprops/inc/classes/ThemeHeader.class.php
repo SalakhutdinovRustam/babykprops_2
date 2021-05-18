@@ -83,14 +83,4 @@ HTML;
 		return $block;
 	}
 
-
-	/**
-	 * Search
-	 */
-/* 	function get_search() {
-		 get_search_form();
-	
-
-	} */
-
 }

@@ -46,7 +46,7 @@ global $temp_html_dir;
             </a></li>
         </ul>
         <div class="offcanvas__logo">
-            <a href="./index.html"><img src="<?php echo $temp_html_dir ?>img/logo.png" alt=""></a>
+				<?php echo $header->get_logo(); ?>
         </div>
         <div id="mobile-menu-wrap"></div>
         <div class="offcanvas__auth">
