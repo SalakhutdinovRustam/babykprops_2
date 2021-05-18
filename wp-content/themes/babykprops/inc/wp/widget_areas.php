@@ -6,10 +6,10 @@ function babykprops_widget_areas() {
 		'id'            => 'sidebar',
 		'description'   => '',
 		'class'         => '',
-		'before_widget' => '<div class="sidebar-widget theme1 mb-30">',
+		'before_widget' => '<div class="blog__sidebar__item">',
 		'after_widget'  => '</div>',
-		'before_title'  => '<h3 class="post-title">',
-		'after_title'   => '</h3>',
+		'before_title'  => '<h4 class="section-title">',
+		'after_title'   => '</h4> ',
 		'before_sidebar' => '',
 		'after_sidebar'  => '',
 	) );
