@@ -140,7 +140,7 @@
   margin-right: 10px;
   margin-bottom: 10px;
 
-  & > span {
+  & ~ span {
     font-size: 14px;
     color: $heading-color;
     font-weight: 600;
@@ -193,7 +193,7 @@
     text-transform: uppercase;
     padding: 14px 30px 15px;
     border-radius: 50px;
-    float: left;
+    // float: left;
     margin-right: 10px;
     margin-bottom: 10px;
   }
@@ -248,7 +248,7 @@
         font-weight: 600;
         color: $heading-color;
         width: 150px;
-        float: left;
+        //float: left;
       }
 
       .stock__checkbox {

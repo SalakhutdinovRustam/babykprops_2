@@ -1,0 +1,38 @@
+li {
+  list-style-type: none;
+}
+
+ol.commentlist {
+  ul.children {
+    position: relative;
+    margin-left: 50px;
+  }
+}
+
+.comment-author.vcard {
+  float: left;
+  margin-right: 25px;
+
+  img {
+    border-radius: 50%;
+    height: 90px;
+    width: 90px;
+  }
+
+  .fn {
+    color: #111;
+    font-weight: 600;
+    margin-bottom: 14px;
+    font-style: normal;
+  }
+
+  .says {
+    display: none;
+  }
+
+  .comment-meta.commentmetadata {
+    font-size: 15px;
+    color: #444;
+    line-height: 26px;
+  }
+}

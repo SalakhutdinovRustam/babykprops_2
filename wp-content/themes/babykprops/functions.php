@@ -15,6 +15,7 @@ require_once THEME_DIR .'/inc/wp/menus.php';
 require_once THEME_DIR .'/inc/hooks/images.php';
 require_once THEME_DIR .'/inc/acf/options_page.php';
 require_once THEME_DIR .'/inc/shortcodes/footer_shortcodes.php';
+require_once THEME_DIR .'/inc/shortcodes/sidebar_shortcodes.php';
 
 
 function wpblog_add_google_fonts() {
