@@ -50,7 +50,7 @@ add_shortcode('footer-description', 'footer_description');
  */
 function footer_logo_social() {
 	$socials_list = get_field('footer_social_networks', 'options');
-
+  $form_footer =  do_shortcode('[contact-form-7 id="130" title="Subscription block (Footer)"]'); 
 	if(empty($socials_list)) {
 		return false;
 	}
@@ -64,6 +64,7 @@ function footer_logo_social() {
 	}
 
 	$block = <<<HTML
+$form_footer
 <div class="footer__social">
 			{$html_socials}
 	</div>

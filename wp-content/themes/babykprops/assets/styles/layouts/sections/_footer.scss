@@ -1,4 +1,56 @@
 /* ---------------------
+  Instagram
+----------------------- */
+.feedOne {
+  height: 320px;
+
+  .sbi_imgLiquid_bgSize {
+    height: 320px !important;
+  }
+
+  &:hover {
+    &::after {
+      opacity: 1;
+    }
+  }
+
+  .sbi-screenreader {
+    text-align: center !important;
+    opacity: 0;
+    visibility: hidden;
+
+    @include transition(all, 0.3s);
+
+    i {
+      font-size: 30px;
+      color: #0d0d0d;
+    }
+
+    a {
+      font-size: 16px;
+      color: #0d0d0d;
+      font-weight: 500;
+      display: block;
+      margin-top: 10px;
+    }
+  }
+
+  &::after {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.9);
+    content: "";
+    opacity: 0;
+    z-index: -1;
+
+    @include transition(all, 0.3s);
+  }
+}
+
+/* ---------------------
   Footer
 ----------------------- */
 .footer {
@@ -52,19 +104,60 @@
   }
 }
 
-.footer__newslatter {
-  margin-bottom: 30px;
+.footer {
+  .footer__newslatter {
+    form {
+      input {
+        height: auto;
+        width: auto;
+      }
+    }
 
+    .wpcf7 {
+      position: relative;
+
+      .wpcf7-text {
+        height: 52px;
+        width: 100%;
+        border: 1px solid #e1e1e1;
+        border-radius: 50px;
+        padding-left: 30px;
+        font-size: 14px;
+        color: #666;
+
+        &::placeholder {
+          color: #666;
+        }
+      }
+
+      .site-btn {
+        position: absolute;
+        right: 4px;
+        top: 2px;
+        font-size: 14px;
+        color: #fff;
+        background: #ca1515;
+        font-weight: 600;
+        border: none;
+        text-transform: uppercase;
+        display: inline-block;
+        padding: 12px 30px;
+        border-radius: 50px;
+      }
+    }
+  }
+}
+
+.footer__newslatter {
   h6 {
     color: $heading-color;
     font-weight: 600;
     text-transform: uppercase;
-    margin-bottom: 25px;
+    margin-bottom: 38px;
   }
 
   form {
     position: relative;
-    margin-bottom: 30px;
 
     input {
       height: 52px;
@@ -89,6 +182,9 @@
 }
 
 .footer__social {
+  margin-bottom: 30px;
+  margin-top: -40px;
+
   a {
     display: inline-block;
     height: 40px;
