@@ -26,3 +26,8 @@ function wpblog_add_google_fonts() {
 	}
 } 
 add_action( 'wp_enqueue_scripts', 'wpblog_add_google_fonts' );
+
+
+function my_acf_init() {
+}
+add_action('acf/init', 'my_acf_init');

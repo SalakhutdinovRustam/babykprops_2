@@ -22,3 +22,9 @@ HTML;
 
 	return $block;
 }
+
+function init_google_map() {
+	function js_google_map() {
+	}
+	add_action('wp_enqueue_scripts', 'js_google_map');
+}
