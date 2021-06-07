@@ -1,6 +1,11 @@
 <?php
 global $temp_html_dir;
 ?>
+<?php
+echo do_shortcode( '[instagram-feed class=feedOne]' );
+  
+	?>
+
  <!-- Footer Section Begin -->
  <footer class="footer">
         <div class="container">
@@ -23,12 +28,11 @@ global $temp_html_dir;
                 </div>
                 <div class="col-lg-4 col-md-8 col-sm-8">
                     <div class="footer__newslatter">
-										<?php dynamic_sidebar('footer-col-4'); ?>
-                       <form action="#">
-                            <input type="text" placeholder="Email">
-                            <button type="submit" class="site-btn">Subscribe</button>
-                        </form>
-                    </div>
+										
+										<?php	 
+										 dynamic_sidebar('footer-col-4');
+									?>
+                       </div>
                 </div>
             </div>
             <div class="row">

@@ -33,7 +33,7 @@ echo get_theme_page_title_block($title);
 												<?php echo $content; ?>
                           </div>
                         <div class="blog__details__tags">
-                            <a href="#">Fashion</a>
+													  <a href="#">Fashion</a>
                             <a href="#">Street style</a>
                             <a href="#">Diversity</a>
                             <a href="#">Beauty</a>
@@ -54,55 +54,9 @@ echo get_theme_page_title_block($title);
                         </div>
                         <div class="blog__details__comment">
 												<?php 
-									comments_template();
-									?>
-                            <h5>3 Comment</h5>
-                            <a href="#" class="leave-btn">Leave a comment</a>
-                            <div class="blog__comment__item">
-                                <div class="blog__comment__item__pic">
-                                    <img src="<?php echo $temp_html_dir ?>img/blog/details/comment-1.jpg" alt="">
-                                </div>
-                                <div class="blog__comment__item__text">
-                                    <h6>Brandon Kelley</h6>
-                                    <p>Duis voluptatum. Id vis consequat consetetur dissentiet, ceteros commune perpetua
-                                    mei et. Simul viderer facilisis egimus tractatos splendi.</p>
-                                    <ul>
-                                        <li><i class="fa fa-clock-o"></i> Seb 17, 2019</li>
-                                        <li><i class="fa fa-heart-o"></i> 12</li>
-                                        <li><i class="fa fa-share"></i> 1</li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="blog__comment__item blog__comment__item--reply">
-                                <div class="blog__comment__item__pic">
-                                    <img src="<?php echo $temp_html_dir ?>img/blog/details/comment-2.jpg" alt="">
-                                </div>
-                                <div class="blog__comment__item__text">
-                                    <h6>Brandon Kelley</h6>
-                                    <p>Consequat consetetur dissentiet, ceteros commune perpetua mei et. Simul viderer
-                                    facilisis egimus ulla mcorper.</p>
-                                    <ul>
-                                        <li><i class="fa fa-clock-o"></i> Seb 17, 2019</li>
-                                        <li><i class="fa fa-heart-o"></i> 12</li>
-                                        <li><i class="fa fa-share"></i> 1</li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="blog__comment__item">
-                                <div class="blog__comment__item__pic">
-                                    <img src="<?php echo $temp_html_dir ?>img/blog/details/comment-3.jpg" alt="">
-                                </div>
-                                <div class="blog__comment__item__text">
-                                    <h6>Brandon Kelley</h6>
-                                    <p>Duis voluptatum. Id vis consequat consetetur dissentiet, ceteros commune perpetua
-                                    mei et. Simul viderer facilisis egimus tractatos splendi.</p>
-                                    <ul>
-                                        <li><i class="fa fa-clock-o"></i> Seb 17, 2019</li>
-                                        <li><i class="fa fa-heart-o"></i> 12</li>
-                                        <li><i class="fa fa-share"></i> 1</li>
-                                    </ul>
-                                </div>
-                            </div>
+								            	comments_template();
+								            	?>
+                        
                         </div>
                     </div>
                 </div>
