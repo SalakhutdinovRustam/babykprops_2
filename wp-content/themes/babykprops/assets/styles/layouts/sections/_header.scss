@@ -16,6 +16,7 @@
 
 .header__menu {
   padding: 30px 0 27px;
+  display: flex;
 
   ul {
     li {
@@ -110,6 +111,14 @@
       }
     }
   }
+}
+
+.wpml-ls-flag {
+  margin-left: 3em;
+}
+
+.wpml-ls-native {
+  visibility: hidden;
 }
 
 .header__right {

@@ -28,7 +28,7 @@ function text_image_2_col($data) {
 	$shop_now_link = $data['text']['shop_now_link'];
 	$shop_now_text = $data['text']['shop_now_text'];
 	$countdown_day = $data['text']['countdown_day'];
-/* 	$countdown_day = get_field('content_home')[0]['text']['countdown_day']; */
+
 	$html_text = <<<HTML
 	<div class="col-lg-6 p-0">
 			<div class="discount__text">
@@ -42,7 +42,7 @@ function text_image_2_col($data) {
 					<a href="{$shop_now_link}">{$shop_now_text}</a>
 			</div>
 	</div>
-	HTML;
+HTML;
 
 	// Display
 	if($layout == 'txt_img') {

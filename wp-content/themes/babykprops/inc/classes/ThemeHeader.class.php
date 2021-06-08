@@ -37,26 +37,41 @@ HTML;
 			'theme_location' => 'main_menu',
 			'menu_class' => '',
 	));
+	$top_menu = wp_nav_menu(array(
+		'echo' => false,
+		'theme_location' => 'top_menu',
+		'menu_class' => '',
+	));
+	
 		
 		$block = <<<HTML
-<div class="col-xl-6 col-lg-7">
+<div class="col-xl-6 col-lg-6">
 	<nav class="header__menu">
-	{$main_menu}
+		{$main_menu}
+		{$top_menu}
 	</nav>
+	
 </div>
 HTML;
 	return $block;
 	}
 
+
+
 	/**
 	 * Header_right
 	 */
 	function get_header_right() {
+
+
+	//
+
+
 		$phone_title = $this->acf_fields['phone']['phone_title'];
 		$phone_number = $this->acf_fields['phone']['phone_number'];
 
 		$block = <<<HTML
-<div class="col-xl-4 col-lg-3">
+<div class="col-xl-4 col-lg-4">
 	<div class="header__right">
 			<div class="header__right__phone">
 							<a class="phone-title" href="#">$phone_title</a>
@@ -74,8 +89,9 @@ HTML;
 								<li><a href="#"><span class="icon_bag_alt"></span>
 										<div class="tip">2</div>
 								</a></li>
-						</ul>
-				</div>
+							</ul>
+					</div>
+				
 		</div>
 </div>
 HTML;

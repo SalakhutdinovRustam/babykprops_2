@@ -9,7 +9,7 @@ function babykprops_widget_areas() {
 		'before_widget' => '<div class="blog__sidebar__item">',
 		'after_widget'  => '</div>',
 		'before_title'  => '<h4 class="section-title">',
-		'after_title'   => '</h4> ',
+		'after_title'   => '</h4>',
 		'before_sidebar' => '',
 		'after_sidebar'  => '',
 	) );
