@@ -30,7 +30,7 @@ function text_image_2_col($data) {
 	$countdown_day = $data['text']['countdown_day'];
 
 	$html_text = <<<HTML
-	<div class="col-lg-6 p-0">
+<div class="col-lg-6 p-0">
 			<div class="discount__text">
 					<div class="discount__text__title">
 							<span>{$discount_span}</span>
@@ -53,14 +53,14 @@ HTML;
 
 
 		$html_block = <<<HTML
-		<section class="flex_text_image_2_col">
+<section class="flex_text_image_2_col">
 		<div class="container">
 		<div class="row">
 			{$display}
 		</div>
 		</div>
 		</section>
-		HTML;
+HTML;
 
 	return $html_block;
 }	
