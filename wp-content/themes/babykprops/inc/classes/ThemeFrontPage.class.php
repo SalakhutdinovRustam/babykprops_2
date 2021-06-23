@@ -16,7 +16,7 @@ function text_image_2_col($data) {
 					{$image}
 			</div>
 	</div>
-	HTML;
+HTML;
 
 	
 	
