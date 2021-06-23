@@ -7,10 +7,13 @@ import 'jquery-countdown/dist/jquery.countdown.min'
 import 'slicknav/jquery.slicknav'
 import 'owl.carousel/dist/owl.carousel.min'
 import 'jquery.nicescroll/jquery.nicescroll'
-
+import 'select2/dist/js/select2'
+import 'chart.js/dist/chart.min'
 
 //local scripts
 import './pages/map'
+import './pages/covid'
+import './pages/fbi'
 
 'use strict';
 

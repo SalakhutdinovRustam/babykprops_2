@@ -1,0 +1,67 @@
+.fbi-page {
+  .offices-list {
+    text-align: center;
+    padding: 50px 0;
+
+    select {
+      display: inline-block;
+      font-size: 18px;
+    }
+  }
+
+  .error-message {
+    color: #c83923;
+    font-size: 14px;
+    text-align: center;
+    padding-bottom: 30px;
+  }
+
+  .fbi-results {
+    display: flex;
+    background: #ff6947a6;
+    flex-wrap: wrap;
+    align-content: space-between;
+    margin-bottom: 2rem;
+
+    .fugitive-info {
+      .fugitive-photo {
+        max-height: 150px;
+        width: 150px;
+        margin: 2rem auto 5rem;
+      }
+
+      .fugitive-name {
+        text-align: center;
+
+        a {
+          font-size: 16px;
+          color: aliceblue;
+          font-weight: bold;
+        }
+      }
+
+      .fugitive-reward {
+        font-weight: 500;
+        text-align: center;
+      }
+
+      .fugitive-description {
+        font-weight: 500;
+        margin-bottom: 2rem;
+        text-align: center;
+      }
+    }
+
+    .error-message {
+      display: none;
+    }
+
+    .country-chart {
+      display: none;
+    }
+  }
+
+  .error-message h4 {
+    color: red;
+  }
+}

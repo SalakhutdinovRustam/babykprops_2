@@ -8,6 +8,7 @@
 @import "components/slicknav";
 @import "components/comments";
 @import "components/breadcrumb";
+@import "~select2/dist/css/select2.min";
 
 //Common
 @import "common/variables";
@@ -30,6 +31,8 @@
 @import "layouts/pages/checkout";
 @import "layouts/pages/blog";
 @import "layouts/pages/contact";
+@import "layouts/pages/covid";
+@import "layouts/pages/fbi";
 
 //blocks
 
