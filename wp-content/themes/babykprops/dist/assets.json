@@ -9,12 +9,14 @@
   "fonts/fontawesome-webfont.ttf?v=4.7.0": "fonts/fontawesome-webfont_b06871f2.ttf",
   "fonts/fontawesome-webfont.woff2?v=4.7.0": "fonts/fontawesome-webfont_af7ae505.woff2",
   "fonts/fontawesome-webfont.woff?v=4.7.0": "fonts/fontawesome-webfont_fee66e71.woff",
+  "images/default-placeholder.png": "images/default-placeholder_aabedb80.png",
+  "images/pages/team/no_avatar.jpg": "images/pages/team/no_avatar_89133a64.jpg",
   "vendor/ui-icons_444444_256x240.png": "vendor/ui-icons_444444_256x240_f4ebe485.png",
   "vendor/ui-icons_555555_256x240.png": "vendor/ui-icons_555555_256x240_d70c49a1.png",
   "vendor/ui-icons_777620_256x240.png": "vendor/ui-icons_777620_256x240_03c85664.png",
   "vendor/ui-icons_777777_256x240.png": "vendor/ui-icons_777777_256x240_6d28e77d.png",
   "vendor/ui-icons_cc0000_256x240.png": "vendor/ui-icons_cc0000_256x240_bd6996f9.png",
   "vendor/ui-icons_ffffff_256x240.png": "vendor/ui-icons_ffffff_256x240_e33c878c.png",
-  "styles/main.css": "styles/main_0688c87b.css",
-  "scripts/main.js": "scripts/main_0688c87b.js"
+  "styles/main.css": "styles/main_2073553d.css",
+  "scripts/main.js": "scripts/main_2073553d.js"
 }

@@ -3,7 +3,6 @@ require_once THEME_DIR .'/inc/classes/ThemeHeader.class.php';
 
 $header = new ThemeHeader();
 
-global $temp_html_dir;
 ?>
 
 <!DOCTYPE html>

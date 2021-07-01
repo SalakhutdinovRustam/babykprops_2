@@ -24,7 +24,8 @@ $(document).ready(function () {
 
 		// eslint-disable-next-line no-unused-vars
 		var countryChart
-
+    
+		$('.countries-list select').select2();
 		$('.countries-list select').change(function () {
 
 			// eslint-disable-next-line no-unused-vars

@@ -32,20 +32,24 @@ body {
 #breadcrumbs {
   display: block;
 
-  a {
-    color: $heading-color;
-    font-size: 15px;
-    font-weight: 500;
-    margin-right: 6px;
-    display: inline-block;
-    position: relative;
+  & > span {
+    & > span {
+      & > a::before {
+        content: "\F015";
+        font-family: FontAwesome, serif;
+        margin-right: 6px;
+        color: $heading-color;
+        display: inline-block;
+      }
 
-    &::before {
-      content: "\F015";
-      font-family: FontAwesome, serif;
-      margin-right: 6px;
-      color: $heading-color;
-      display: inline-block;
+      a {
+        color: $heading-color;
+        font-size: 15px;
+        font-weight: 500;
+        margin-right: 6px;
+        display: inline-block;
+        position: relative;
+      }
     }
   }
 }

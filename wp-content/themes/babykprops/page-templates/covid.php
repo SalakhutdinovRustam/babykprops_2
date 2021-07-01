@@ -36,7 +36,7 @@ echo get_theme_page_title_block(get_the_title());
 	<div class="row">
 		<div class="col-lg-12">
 			<div class="countries-list">
-				<select id="countries" style='width: 200px;'">
+				<select id="countries" >
 				<option selected disabled>---<?php _e( 'Choose a country', 'babykprops' ) ?>---</option>
 		           <?php echo $html_countries; ?>
 				

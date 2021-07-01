@@ -9,6 +9,10 @@
 .blog__details__item {
   background: $white-color;
   margin-bottom: 24px;
+
+  img {
+    width: 500px;
+  }
 }
 
 .blog__details__item__title {
@@ -36,6 +40,17 @@
     line-height: 39px;
     margin-top: 10px;
     margin-bottom: 5px;
+  }
+
+  .taxonomy_text {
+    font-size: 14px;
+    color: #101019;
+    background-color: gainsboro;
+
+    a {
+      color: #f70a82;
+      font-weight: 500;
+    }
   }
 
   ul {
