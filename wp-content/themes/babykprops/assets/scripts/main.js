@@ -14,6 +14,7 @@ import 'chart.js/dist/chart.min'
 import './pages/map'
 import './pages/covid'
 import './pages/fbi'
+import './pages/team'
 
 'use strict';
 
